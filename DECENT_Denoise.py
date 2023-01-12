@@ -11,7 +11,7 @@ import scipy.io as io
 m0_tag = True
 mask_tag = True
 
-datapath = r'D:\Work\论文\code\Data\Test\numerical_simulation'
+datapath = r'Data/numerical_simulation'
 # load model
 model = DECENT()  # choose model
 save_name = 'DECENT'  # save name
