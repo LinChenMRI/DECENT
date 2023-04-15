@@ -79,5 +79,5 @@ print('loss : %.8f' % (mse_denoi * clean_m0.shape[0] * clean_m0.shape[1] / 2))
 log('take time = %2dh %2dmin %2.4fs' % (elapsed_time // 3600, elapsed_time % 3600 // 60, elapsed_time % 60))
 # save denoised data
 denoi_data = denoi_data.transpose(1, 2, 0)
-scipy.io.savemat(datapath + '/' + save_name + '.mat', {save_name: denoi_data.astype(np.float64)})
+# scipy.io.savemat(datapath + '/' + save_name + '.mat', {save_name: denoi_data.astype(np.float64)})
 
